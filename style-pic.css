@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    position: relative;
+}
+
+.box{
+    padding: 5px;
+    float: left;
+}
+
+.boxImg{
+    padding: 5px;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+}
+
+.boxImg img{
+    width: 300px;
+    height:auto;
+}
+
+p{
+    text-align: center;
+}

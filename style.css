@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: snow;
+}
+
+.wrapper{
+    width:80%;
+    height: 1000px;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+
+.heading{
+    margin: 0px auto;
+    background-color: snow;
+    width:100%;
+    height: 90px;
+}
+
+.title{
+    font-family: "Adobe 黑体 Std R";
+    font-size: 30px;
+    color: burlywood;
+    float:left;
+    padding-top: 20px;
+}
+ul{
+    margin-left: 40px;
+    float:left;
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 6px;
+}
+
+.nav{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    width:100%;
+    height: 30px;
+    position: relative;
+}
+
+li{
+    padding-left: 10px;
+    display: inline;
+}
+a:link,a:visited{
+    font-weight: bold;
+    color: darkgray;
+    text-align: center;
+    padding:6px;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: dimgray;
+}
+
+.img img{
+    border-radius: 30px;
+    width:60px;
+    height:60px;
+    display:inline;
+    float:right;
+}
+
+.spotline form{
+    float:right;
+    width:100px;
+    height:20px;
+    position:relative;
+    margin-right:100px;
+    padding-top: 30px;
+}
+
+form input{
+    height:20px;
+    border-radius: 10px;
+
+}
+
+.footing{
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
