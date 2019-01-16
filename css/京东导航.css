@@ -1,0 +1,139 @@
+body{
+    padding:0px;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.main{
+    display: block;
+    width: 220px;
+    border: 2px solid #e4393c;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topTitle{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 13pt;
+    font-weight: bold;
+    color: white;
+    background-color: #e4393c;
+    padding-left: 20px;
+}
+.topMenu{
+    padding: 0px;
+    margin: 5px;
+    background-color: #F8F8F8;
+}
+.topMenu li{
+    height: 30px;
+    line-height: 30px;
+    list-style-type: none;
+    font-size: 11pt;
+    text-align: left;
+    padding-left: 10px;
+    z-index: 3;
+    background: #F8F8F8 url("http://img.mukewang.com/5411027300014f0200220030.jpg") no-repeat right;
+}
+
+.topMenu li a{
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI", serif;
+    color: #313131;
+}
+
+.topMenu li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #e4393c;
+}
+
+.topMenu li:hover{
+    border: 1px solid #DDD;
+    border-right: 0;
+    box-shadow: 0 0 8px #DDDDDD;
+    -moz-box-shadow: 0 0 8px #DDDDDD;
+    background-image: none;
+}
+
+.subMenu{
+    display: none;
+    width:715px;
+    left: 215px;
+    position: absolute;
+    top:40px;
+    border: 1px solid #DDD;
+    z-index: 4;
+    background-color: #F8F8F8;
+    box-shadow: 0 0 8px #DDDDDD;
+    padding: 10px 20px 20px 20px;
+}
+
+.left{
+    width: 490px;
+    margin: 5px;
+    float:left;
+}
+
+.right{
+    width: 200px;
+    margin: 5px;
+    float:left;
+    background-color: grey;
+}
+
+.topMenu li:hover .subMenu{
+    display: block;
+}
+
+.topMenu li:hover .cover{
+    display: inline-block;
+    background-color: #F8F8F8;
+    z-index: 5;
+    width:10px;
+    height: 30px;
+    position: relative;
+    float: right;
+}
+
+.left dl{
+    display: block;
+    border-bottom: 1px solid #DDDDDD;
+    overflow: hidden;
+    padding-bottom:6px;
+}
+
+.left dl dt{
+    display: block;
+    float:left;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    text-align: right;
+    font-size: 10pt;
+    padding-right: 10px;
+}
+
+.left dl dt a{
+    color: #e4393c;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.left dl dd{
+    display: block;
+    overflow: hidden;
+}
+
+.left dl dd a{
+    float: left;
+    border-left: 1px solid #CCCCCC;
+    color: #737373;
+    font-size: 9pt;
+    padding: 0 8px;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 0;
+}
